@@ -1,0 +1,57 @@
+# Compiled output
+/src/link-shortener-test/dist
+/src/link-shortener-test/tmp
+/src/link-shortener-test/out-tsc
+/src/link-shortener-test/bazel-out
+
+# Node
+/src/link-shortener-test/node_modules
+/src/link-shortener-test/npm-debug.log
+/src/link-shortener-test/yarn-error.log
+
+# IDEs and editors
+/src/link-shortener-test/.idea/
+/src/link-shortener-test/.project
+/src/link-shortener-test/.classpath
+/src/link-shortener-test/.c9/
+/src/link-shortener-test/.launch
+/src/link-shortener-test/.settings/
+/src/link-shortener-test/.sublime-workspace
+
+# Visual Studio Code
+/src/link-shortener-test/.vscode/*
+!/src/link-shortener-test/.vscode/settings.json
+!/src/link-shortener-test/.vscode/tasks.json
+!/src/link-shortener-test/.vscode/launch.json
+!/src/link-shortener-test/.vscode/extensions.json
+/src/link-shortener-test/.history/*
+
+# Miscellaneous
+/src/link-shortener-test/.angular/cache
+/src/link-shortener-test/.sass-cache/
+/src/link-shortener-test/connect.lock
+/src/link-shortener-test/coverage
+/src/link-shortener-test/libpeerconnection.log
+/src/link-shortener-test/testem.log
+/src/link-shortener-test/typings
+
+# System files
+/src/link-shortener-test/.DS_Store
+/src/link-shortener-test/Thumbs.db
+/.vs
+/src/link-shortener-test/.vscode
+/src/link-shortener-ui/LinkShortener.Api/bin/Debug/net6.0
+/src/link-shortener-ui/LinkShortener.Api/obj
+*.user
+/src/link-shortener-ui/LinkShortener.Application/bin/Debug/net6.0
+/src/link-shortener-ui/LinkShortener.Application/obj/Debug/net6.0
+/src/link-shortener-ui/LinkShortener.Application/obj
+/src/link-shortener-ui/LinkShortener.Domain/bin/Debug/net6.0
+/src/link-shortener-ui/LinkShortener.Domain/obj
+/src/link-shortener-ui/LinkShortener.Persistence/bin/Debug/net6.0
+/src/link-shortener-ui/LinkShortener.Persistence/obj
+/src/link-shortener-ui/LinkShortener.TestSuite/bin/Debug/net6.0
+/src/link-shortener-ui/LinkShortener.TestSuite/obj
+/src/link-shortener-ui/.vs/LinkShortener
+/src/link-shortener-ui/LinkShortener.TestSuite/bin/Release/net6.0
+/src/link-shortener-ui/.vs/ProjectEvaluation

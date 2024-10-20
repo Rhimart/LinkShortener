@@ -1,0 +1,52 @@
+<h1 class="text-center mb-5 display-4 text-primary">Link Shortener</h1>
+
+<div class="row justify-content-center">
+  <div class="col-md-8">
+    <div class="card shadow-lg">
+      <div class="card-body p-4">
+        <div class="row align-items-end mb-4">
+          <div class="col-md-8">
+            <label class="form-label fs-5">Enter URL</label>
+            <input type="text" class="form-control form-control-lg" placeholder="https://example.com" [(ngModel)]="link">
+          </div>
+          <div class="col-md-4 d-grid">
+            <button type="button" class="btn btn-primary btn-lg" (click)="convertLink()">Get Short Link</button>
+          </div>
+        </div>
+        
+        <div class="row mt-4">
+          <div class="col-12 text-center">
+            <h6 class="text-muted">Short Link:</h6>
+            <h5 class="text-success">{{ shortLink || 'No link generated yet' }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-5">
+
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h5 class="text-center mb-4 text-secondary">Shortened Links History</h5>
+        <table class="table table-bordered table-hover table-striped text-center">
+          <thead class="table-dark">
+            <tr>
+              <th>#</th>
+              <th>Original URL</th>
+              <th>Short Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let link of links; let i = index">
+              <td>{{ i + 1 }}</td>
+              <td class="text-break">{{ link.originalUrl }}</td>
+              <td>
+                <a href="{{ link.originalUrl }}" target="_blank">{{ link.shortUrl }}</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
